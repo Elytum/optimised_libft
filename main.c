@@ -6,6 +6,8 @@
 #include <string.h>
 #include <stdlib.h>
 
+#include <stdio.h>
+
 void				put_str_array(char **array)
 {
 	while (*array)
@@ -24,9 +26,12 @@ int		main(void)
 	// put_str_array(array);
 	// free(array);
 
-	int				i = 1000000;
+	// int				i = 1000000;
+	// while (i--)
+	// 	ft_putnbr(25453453);
 
+	int				i = 1000000;
 	while (i--)
-		ft_putnbr(25453453);
+		write(1, ft_itoa(-2147483648), 12);
 	return (0);
 }
