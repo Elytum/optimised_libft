@@ -24,8 +24,8 @@ void			ft_putnbr(int i)
 	char		*ptr;
 	char		neg;
 
-	if (i == -2147483648)
-		write(1, "-2147483648", 11);
+	if (i == MIN_INT)
+		write(1, MIN_INT_STRING, 11);
 	else
 	{
 		if (i < 0)

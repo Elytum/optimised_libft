@@ -7,9 +7,9 @@ char		*ft_itoa(int i)
 	static char		buffer[MAX_INT_SIZE + 2];
 	char			*ptr;
 
-	if (i == -2147483648)
+	if (i == MIN_INT)
 	{
-		memcpy(buffer, "-2147483648\0", 12);
+		memcpy(buffer, MIN_INT_STRING, 11);
 		return (buffer);
 	}
 	ptr = buffer + sizeof(buffer) - 1;
