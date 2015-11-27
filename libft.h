@@ -15,5 +15,6 @@ void		ft_putnbr(int i);
 void		ft_putnbr_fd(int i, int fd);
 char		*ft_itoa(int i);
 size_t		ft_strlen(const char *str);
+char		*ft_strdup(const char *str);
 
 #endif

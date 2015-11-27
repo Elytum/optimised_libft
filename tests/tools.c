@@ -4,8 +4,8 @@
 
 void				tell_function_delay(const char *function_name, const char *extra)
 {
-	const char		intro[] = "The function: ";
-	const char		delay[] = " took ";
+	const char		intro[] = "The function \"";
+	const char		delay[] = "\" took ";
 	const char		outro[] = " miliseconds to be executed !";
 
 	write(2, intro, ft_strlen(intro));
